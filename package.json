@@ -1,8 +1,8 @@
 {
-  "name": "request-animation-frame",
+  "name": "request-animation-js",
   "version": "1.0.0",
   "description": "requestAnimationFrame的兼容处理",
-  "main": "index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && ./node_modules/.bin/rollup -c"
@@ -10,7 +10,10 @@
   "keywords": [
     "requestAnimationFrame"
   ],
-  "author": "banyaner",
+  "author": {
+    "name": "zhongxia",
+    "email": "amy_zhjx@163.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/banyaner/requestAnimationFrame.git"

@@ -1,4 +1,4 @@
-# requestAnimationFrame
+# request-animation-js
 
 requestAnimationFrame的兼容处理
 
