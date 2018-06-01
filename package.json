@@ -1,0 +1,29 @@
+{
+  "name": "request-animation-frame",
+  "version": "1.0.0",
+  "description": "requestAnimationFrame的兼容处理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && ./node_modules/.bin/rollup -c"
+  },
+  "keywords": [
+    "requestAnimationFrame"
+  ],
+  "author": "banyaner",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.12.0",
+    "rollup": "^0.59.4",
+    "rollup-plugin-babel": "beta",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}
