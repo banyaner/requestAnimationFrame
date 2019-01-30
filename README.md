@@ -1,6 +1,6 @@
-# request-animation-js
+# requestAnimationJs
 
-requestAnimationFrame的兼容处理
+requestAnimationFrame的pollyfill
 
 ## 使用
 

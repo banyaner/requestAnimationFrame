@@ -16,7 +16,7 @@ if (!window.requestAnimationFrame) {
         window.requestAnimationFrame = (() => {
             let lastTime = 0
             return (cb) => {
-                const now = Date.now()
+                const now = (new Date()).getTime()
                 const nextTime = Math.max(lastTime + 41, now) // 电影fps=24所以1帧为1000ms/24约41ms；若要达到和系统相同频率60HZ，则为1000ms/60约16ms
                 return setTimeout(() => {
                     cb()
